@@ -716,6 +716,14 @@ problem.</p>
 <span><span class="co">##  tolerance with xtol_abs as well. Criterion is disabled if xtol_rel is</span></span>
 <span><span class="co">##  non-positive.</span></span>
 <span><span class="co">## </span></span>
+<span><span class="co">## x_weights</span></span>
+<span><span class="co">##  possible values: x_weights &gt; 0</span></span>
+<span><span class="co">##  default value:   rep(1.0, length(x0))</span></span>
+<span><span class="co">## </span></span>
+<span><span class="co">##  x_weights is a vector of length n (the number of elements in x)</span></span>
+<span><span class="co">##  giving the relative importance of each parameter x[i] when checking</span></span>
+<span><span class="co">##  the relative tolerance.</span></span>
+<span><span class="co">## </span></span>
 <span><span class="co">## xtol_abs</span></span>
 <span><span class="co">##  possible values: xtol_abs &gt; 0</span></span>
 <span><span class="co">##  default value:   rep(0.0, length(x0))</span></span>
